@@ -59,3 +59,7 @@ Configuration Management: Almost all software (from games to web servers) needs 
 System Logging: Servers run 24/7 and generate massive amounts of status data. They cannot "write over" old data; they must add to it continuously. The appendFile() function you wrote simulates the backend of a server log (like access.log in Apache/Nginx), where every request is appended to the end of a file for security auditing.
 Database Foundations: A database is essentially a very complex system of file handling. When you "Read" from a database, the engine is performing highly optimized versions of fopen and fgets to retrieve records stored on the hard drive.
 Data Transport: "CSV" (Comma Separated Values) files are the standard for moving data between Excel and programming environments. Your program’s ability to read text lines is the first step in building a parser that can read a CSV file and analyze business data.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/9059cdf2-430a-44a2-94e6-97e3f5940b3d)
